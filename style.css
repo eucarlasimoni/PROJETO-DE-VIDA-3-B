@@ -69,6 +69,7 @@ body {
 .abas-textos {
     background-color: var(--texto-fundo);
     padding: 40px;
+    
     border-radius: 0 0 40px 40px;
 }
 
@@ -82,33 +83,40 @@ body {
 
 .aba-conteudo-titulo-principal {
     font-size: 28px;
-    text-align: center;
+    text-align: center; 
+
+  .aba-conteudo-titulo-secundario
+  text-align: center;  
+  color: var(--verde);
+  text-transform: uppercase;
 }
 
-.aba-conteudo-titulo-secundario {
-    text-align: center;
-    color: var(--verde);
-    text-transform: uppercase;
+.contador {
+  display: flex;
+  justify-content: center;
+min-width: 100px;
 }
 
-.conntador{
+
+.contador{
 display: flex;
-justify-content: center;
-flex-wrap: wrap ;
-}
+font-size: 20px;
+text-align: center;
 
 
 }
-@media screen and (min-width: 768px) {
-    .botoes {
+
+
+
+
+
+@media screen {
+    .botoes{
         display: flex;
-    }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
+    
 }
+.botao:first-child{
+    border-radius: 40px 0 0 0;
+}
+
+
